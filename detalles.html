@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Detalles de Juguetes Coleccionables</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Detalles_Tienda_LEGOXD.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .detalle-imagen {
+            float: left;
+            margin: 0 20px 20px 0;
+            max-width: 200px;
+        }
+        .detalle-texto {
+            text-align: justify;
+        }
+        .mas-info {
+            display: block;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body class="bg-dark text-white">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="Logo tienda.png" alt="Logo Tienda" width="80" class="me-2">
+                Tienda de Juguetes Coleccionables
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav" role="menu">
+                    <li class="nav-item" role="menuitem"><a class="nav-link" href="index.html#inicio">Inicio</a></li>
+                    <li class="nav-item" role="menuitem"><a class="nav-link" href="index.html#historia">Historia</a></li>
+                    <li class="nav-item dropdown" role="menuitem">
+                        <a class="nav-link dropdown-toggle" href="index.html#productos" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="index.html#productos-starwars">Juguetes Star Wars</a></li>
+                            <li><a class="dropdown-item" href="index.html#productos-marvel">Juguetes Marvel</a></li>
+                            <li><a class="dropdown-item" href="index.html#productos-pokemon">Juguetes Pokémon</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item" role="menuitem"><a class="nav-link" href="index.html#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <h1 class="text-center mb-5">Detalles de los Juguetes</h1>
+
+        <!-- Halcón Milenario -->
+        <section id="halcon-milenario" class="mb-5 detalle-texto">
+            <img src="Halcon Milenario.jpg" alt="Halcón Milenario" class="detalle-imagen">
+            <h2>Halcón Milenario</h2>
+            <p><strong>Precio:</strong> €799</p>
+            <p>El Halcón Milenario es una de las naves espaciales más icónicas de la saga Star Wars, famosa por su velocidad y maniobrabilidad. Perteneció originalmente a Lando Calrissian, pero pasó a manos de Han Solo y Chewbacca, convirtiéndose en un símbolo de la rebelión contra el Imperio Galáctico. Su diseño único y la atención a los detalles hacen de este juguete una pieza central para cualquier coleccionista de ciencia ficción.</p>
+            <a href="https://es.wikipedia.org/wiki/Halc%C3%B3n_Milenario" target="_blank" class="mas-info text-info">Más información en Wikipedia</a>
+        </section>
+
+        <!-- Nave del Maestro Galáctico -->
+        <section id="maestro-galactico" class="mb-5 detalle-texto">
+            <img src="Obi wan Nave.jpg" alt="Nave del Maestro Galáctico" class="detalle-imagen">
+            <h2>Nave del Maestro Galáctico</h2>
+            <p><strong>Precio:</strong> €349</p>
+            <p>Esta nave, inspirada en las sagas galácticas, representa el vehículo utilizado por un maestro de la Fuerza en sus viajes interplanetarios. Su diseño aerodinámico, su cabina detallada y los accesorios incluidos son un deleite para los fans. Es un recordatorio del balance entre el Lado Luminoso y el Lado Oscuro en el vasto universo galáctico.</p>
+            <a href="https://es.wikipedia.org/wiki/Star_Wars" target="_blank" class="mas-info text-info">Más información en Wikipedia</a>
+        </section>
+
+        <!-- Maestro Sabio -->
+        <section id="maestro-sabio" class="mb-5 detalle-texto">
+            <img src="Yoda.jpg" alt="Maestro Sabio" class="detalle-imagen">
+            <h2>Maestro Sabio</h2>
+            <p><strong>Precio:</strong> €399</p>
+            <p>El Maestro Sabio es una figura inspirada en un venerado mentor, famoso por su sabiduría, habilidad con la Fuerza y su peculiar forma de hablar. Reconocido por entrenar a generaciones de caballeros, su figura es indispensable para comprender la profundidad de la orden y el camino del héroe.</p>
+            <a href="https://es.wikipedia.org/wiki/Yoda" target="_blank" class="mas-info text-info">Más información en Wikipedia</a>
+        </section>
+
+        <!-- Spider Man -->
+        <section id="spider-man" class="mb-5 detalle-texto">
+            <img src="Spider.png" alt="Spider Man" class="detalle-imagen">
+            <h2>Spider Man</h2>
+            <p><strong>Precio:</strong> €799</p>
+            <p>Spider-Man es el icónico superhéroe arácnido, creado por Marvel Comics. Con su sentido arácnido, agilidad sobrehumana y capacidad para trepar muros, se ha convertido en uno de los personajes más queridos del mundo. Este juguete refleja su diseño clásico y añade accesorios que evocan las aventuras del héroe en la gran ciudad.</p>
+            <a href="https://es.wikipedia.org/wiki/Spider-Man" target="_blank" class="mas-info text-info">Más información en Wikipedia</a>
+        </section>
+
+        <!-- Iron Man -->
+        <section id="iron-man" class="mb-5 detalle-texto">
+            <img src="IRONman.png" alt="Iron Man" class="detalle-imagen">
+            <h2>Iron Man</h2>
+            <p><strong>Precio:</strong> €349</p>
+            <p>Iron Man, el genio multimillonario Tony Stark, es un personaje clave en el universo Marvel. Su armadura inteligente y armamento avanzado lo convierten en uno de los héroes más poderosos. Este juguete destaca su icónica armadura roja y dorada, perfecta para exhibir en cualquier colección de superhéroes.</p>
+            <a href="https://es.wikipedia.org/wiki/Iron_Man" target="_blank" class="mas-info text-info">Más información en Wikipedia</a>
+        </section>
+
+        <!-- Capitán América -->
+        <section id="capitan-america" class="mb-5 detalle-texto">
+            <img src="elcap.png" alt="Capitán América" class="detalle-imagen">
+            <h2>Capitán América</h2>
+            <p><strong>Precio:</strong> €399</p>
+            <p>El Capitán América es el supersoldado símbolo de la justicia y la libertad. Con su escudo irrompible, lideró a los Vengadores en numerosas batallas. Esta figura destaca su traje clásico y escudo característico, aportando el toque patriótico a cualquier exposición de figuras coleccionables.</p>
+            <a href="https://es.wikipedia.org/wiki/Capit%C3%A1n_Am%C3%A9rica" target="_blank" class="mas-info text-info">Más información en Wikipedia</a>
+        </section>
+
+        <!-- Mewtwo -->
+        <section id="mewtwo" class="mb-5 detalle-texto">
+            <img src="mewtu.png" alt="Mewtwo" class="detalle-imagen">
+            <h2>Mewtwo</h2>
+            <p><strong>Precio:</strong> €799</p>
+            <p>Mewtwo es un Pokémon legendario, resultado de experimentos genéticos. Su poder psíquico y su trasfondo misterioso lo convierten en uno de los Pokémon más emblemáticos. Esta figura captura su mirada penetrante y su aura de poder.</p>
+            <a href="https://es.wikipedia.org/wiki/Mewtwo" target="_blank" class="mas-info text-info">Más información en Wikipedia</a>
+        </section>
+
+        <!-- Pikachu -->
+        <section id="pikachu" class="mb-5 detalle-texto">
+            <img src="pika.png" alt="Pikachu" class="detalle-imagen">
+            <h2>Pikachu</h2>
+            <p><strong>Precio:</strong> €349</p>
+            <p>Pikachu es el Pokémon más reconocido, símbolo de la franquicia mundialmente conocida. Su aspecto adorable y su capacidad eléctrica han cautivado a millones de seguidores. Esta figura es perfecta para añadir un toque de ternura a tu colección.</p>
+            <a href="https://es.wikipedia.org/wiki/Pikachu" target="_blank" class="mas-info text-info">Más información en Wikipedia</a>
+        </section>
+
+        <!-- Snorlax -->
+        <section id="snorlax" class="mb-5 detalle-texto">
+            <img src="snorlax.png" alt="Snorlax" class="detalle-imagen">
+            <h2>Snorlax</h2>
+            <p><strong>Precio:</strong> €399</p>
+            <p>Snorlax es conocido por su naturaleza perezosa, pasando la mayor parte del tiempo durmiendo. Su simpática apariencia y su rol relajado en el universo Pokémon lo han hecho muy querido. Esta figura capturará la esencia tranquila de este Pokémon.</p>
+            <a href="https://es.wikipedia.org/wiki/Snorlax" target="_blank" class="mas-info text-info">Más información en Wikipedia</a>
+        </section>
+
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Tienda de Juguetes Coleccionables. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
